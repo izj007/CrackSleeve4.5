@@ -7,8 +7,10 @@ import java.util.jar.JarFile;
 
 
 public class CrackSleeve {
-    private static byte[] OriginKey = {-13,-114,-77,-47,-93,53,-78,82,-75,-117,-62,-84,-34,-127,-75,66};
-    private static byte[] CustomizeKey = {-13,-114,-77,-47,-93,53,-78,82,-75,-117,-62,-84,-34,-127,-75,66};
+    //private static byte[] OriginKey = {-13,-114,-77,-47,-93,53,-78,82,-75,-117,-62,-84,-34,-127,-75,66};
+    //private static byte[] CustomizeKey = {-13,-114,-77,-47,-93,53,-78,82,-75,-117,-62,-84,-34,-127,-75,66};
+    private static byte[] OriginKey = {109, 43, 34, 25, 77, 89, 106, 8, 111, 99, 61, 126, 3, 7, 110, 81};
+    private static byte[] CustomizeKey = {109, 43, 34, 25, 77, 89, 106, 8, 111, 99, 61, 126, 3, 7, 110, 81};
 
     private String DecDir = "Resource/Decode/sleeve";
     private String EncDir = "Resource/Encode/sleeve";
